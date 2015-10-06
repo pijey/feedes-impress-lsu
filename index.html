@@ -1,0 +1,430 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=1024" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <title>impress.js | presentation tool based on the power of CSS3 transforms and transitions in modern browsers | by Bartek Szopka @bartaz</title>
+    
+    <meta name="description" content="impress.js is a presentation tool based on the power of CSS3 transforms and transitions in modern browsers and inspired by the idea behind prezi.com." />
+    <meta name="author" content="Bartek Szopka" />
+
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans:regular,semibold,italic,italicsemibold|PT+Sans:400,700,400italic,700italic|PT+Serif:400,700,400italic,700italic" rel="stylesheet" />
+    <link href='http://fonts.googleapis.com/css?family=Aclonica' rel='stylesheet' type='text/css'>
+    <link href="css/impress-demo.css" rel="stylesheet" />
+    <link href="css/feedess.css" rel="stylesheet" />
+    
+    <link rel="shortcut icon" href="favicon.png" />
+    <link rel="apple-touch-icon" href="apple-touch-icon.png" />
+    <!-- Odometr includes -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+
+</head>
+
+<!-- Extra styles for this example -->
+<style>
+.odometer {
+    font-size: 100px;
+}
+</style>
+
+<body class="impress-not-supported">
+
+<div class="fallback-message">
+    <p>Your browser <b>doesn't support the features required</b> by impress.js, so you are presented with a simplified version of this presentation.</p>
+    <p>For the best experience please use the latest <b>Chrome</b>, <b>Safari</b> or <b>Firefox</b> browser.</p>
+</div>
+
+<div class="logo">
+    <img src="img/feedes_logo2.jpg" width="150" alt="">
+</div>
+
+<div id="impress" data-width="2200">
+
+    
+
+    <div class="step cereal cereal-side" data-x="450" data-y="0" data-z="-120" data-rotate-x="0" data-rotate-y="90" data-scale="1">
+    </div>
+
+    <div class="step cereal cereal-box" data-x="0" data-y="0" data-scale="1">
+    </div>
+
+    <div class="step cereal cereal-top" data-x="0" data-y="-675" data-z="-120" data-rotate-x="90" data-rotate-y="0" data-scale="1">
+        
+    </div>
+
+    <div class="step cereal-box" data-x="0" data-y="0" data-scale="1">
+        <div class="line"></div>
+    </div>
+
+    <div class="step cereal-side" data-x="450" data-y="0" data-z="-120" data-rotate-x="0" data-rotate-y="90" data-scale="1">
+        <div class="line"></div>
+    </div>
+
+    <div class="step" data-x="0" data-y="376" data-scale="0.5">
+        <img src="img/corn-flakes2.jpg" width="1793" alt="">
+    </div>
+
+    <div class="step" data-x="250" data-y="-573" data-scale="0.2">
+        <div class='cool_btn1 teal'>
+            <h1 class='top'>75% <i>consommateurs</i></h1>
+            <h2>L</h2>
+        </div>
+    </div>
+
+     <div class="step" data-x="350" data-y="-573" data-scale="0.2">
+        <div class='cool_btn1 blue'>
+            <h1 class='top'>Dur <i>de se démarquer</i></h1>
+            <h2>8</h2>
+        </div>
+        <!-- <div class='cool_btn1 orange'>
+            <h1 class='top'>21k <i>Points</i></h1>
+            <h2>)</h2>
+        </div> -->
+        
+    </div>
+
+    <div class="step" data-x="-250" data-y="-570" data-scale="0.5">
+        <img class="corn" src="img/kellogg.png" width="700" alt="">
+    </div>
+
+    <div class="step text-center" data-x="350" data-y="-450" data-scale="0.2">
+        <img class="" src="img/logo_AB_Europe.jpg" width="700" alt="">
+        <h1>Issu de l'agriculture biologique</h1>
+        <h1>Sans huile de palme</h1>
+        <h1>Sans gluten</h1>
+        <h1>Sans sucre</h1>
+        <h1>Sans colorant</h1>
+        <h1>Sans conservateur</h1>
+        <h1>Sans...</h1>
+    </div>
+
+    <div class="step text-center" data-x="350" data-y="-150" data-scale="0.2">
+        <img class="" src="img/torn.jpg" width="700" alt="">
+    </div>
+
+   
+    <div class="step nutritional" data-x="450" data-y="250" data-z="-120" data-rotate-x="0" data-rotate-y="90" data-scale="0.5">
+        <section class="performance-facts">
+            <header class="performance-facts__header">
+              <h1 class="performance-facts__title">Ingrédients</h1>
+              <p>Maïs, sucre, arôme de malt d'orge, sel, vitamines, fer, acidifiant: acide citrique, lécithine de soja, antioxydant: Butylhydroxytoluène (E321), amidon modifié de pomme de terre, ascorbate de potassium, diglycéride d’acides gras, arôme.</p>
+            </header>
+            
+        </section>
+    
+        <section class="performance-facts">
+          <header class="performance-facts__header">
+            <h1 class="performance-facts__title">Informations nutritionnelles</h1>
+            <p>Portion : 1/2 bol (about 30g)</p>
+            <p>Nombre de portions : 13</p>
+          </header>
+          <table class="performance-facts__table">
+            <thead>
+              <tr>
+                <th colspan="3" class="small-info">
+                  Quantité par portion
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th colspan="2">
+                  <b>Calories</b>
+                  200
+                </th>
+                <td>
+                  Calories issues de graisses
+                  130
+                </td>
+              </tr>
+              <tr class="thick-row">
+                <td colspan="3" class="small-info">
+                  <b>% AJR*</b>
+                </td>
+              </tr>
+              <tr>
+                <th colspan="2">
+                  <b>Matière grasse</b>
+                  14g
+                </th>
+                <td>
+                  <b>22%</b>
+                </td>
+              </tr>
+              <tr>
+                <td class="blank-cell">
+                </td>
+                <th>
+                  Dont saturées
+                  9g
+                </th>
+                <td>
+                  <b>22%</b>
+                </td>
+              </tr>
+              <tr>
+                <td class="blank-cell">
+                </td>
+                <th>
+                  Dont trans
+                  0g
+                </th>
+                <td>
+                </td>
+              </tr>
+              <tr>
+                <th colspan="2">
+                  <b>Cholesterol</b>
+                  55mg
+                </th>
+                <td>
+                  <b>18%</b>
+                </td>
+              </tr>
+              <tr>
+                <th colspan="2">
+                  <b>Sodium</b>
+                  40mg
+                </th>
+                <td>
+                  <b>2%</b>
+                </td>
+              </tr>
+              <tr>
+                <th colspan="2">
+                  <b>Glucides</b>
+                  17g
+                </th>
+                <td>
+                  <b>6%</b>
+                </td>
+              </tr>
+              <tr>
+                <td class="blank-cell">
+                </td>
+                <th>
+                  dont sucres
+                  14g
+                </th>
+                <td>
+                </td>
+              </tr>
+              <tr>
+                <td class="blank-cell">
+                </td>
+                <th>
+                  Fibres
+                  1g
+                </th>
+                <td>
+                  <b>4%</b>
+                </td>
+              </tr>
+              <tr class="thick-end">
+                <th colspan="2">
+                  <b>Protéines</b>
+                  3g
+                </th>
+                <td>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          
+          <table class="performance-facts__table--grid">
+            <tbody>
+              <tr>
+                <td colspan="2">
+                  Vitamine A
+                  10%
+                </td>
+                <td>
+                  Vitamine C
+                  0%
+                </td>
+              </tr>
+              <tr class="thin-end">
+                <td colspan="2">
+                  Calcium
+                  10%
+                </td>
+                <td>
+                  Fer
+                  6%
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          
+          <p class="small-info">* Apports Journaliers Recommandés pour un adulte moyens (2000 kcal)</p>
+          
+          <table class="performance-facts__table--small small-info">
+            <thead>
+              <tr>
+                <td colspan="2"></td>
+                <th>Calories:</th>
+                <th>2,000</th>
+                <th>2,500</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th colspan="2">Matières grasses</th>
+                <td>Moins de</td>
+                <td>65g</td>
+                <td>80g</td>
+              </tr>
+              <tr>
+                <td class="blank-cell"></td>
+                <th>Dont saturées</th>
+                <td>Moins de</td>
+                <td>20g</td>
+                <td>25g</td>
+              </tr>
+              <tr>
+                <th colspan="2">Cholesterol</th>
+                <td>Moins de</td>
+                <td>300mg</td>
+                <td>300 mg</td>
+              </tr>
+              <tr>
+                <th colspan="2">Sodium</th>
+                <td>Moins de</td>
+                <td>2,400mg</td>
+                <td>2,400mg</td>
+              </tr>
+              <tr>
+                <th colspan="3">Glucides</th>
+                <td>300g</td>
+                <td>375g</td>
+              </tr>
+              <tr>
+                <td class="blank-cell"></td>
+                <th colspan="2">Fibres</th>
+                <td>25g</td>
+                <td>30g</td>
+              </tr>
+            </tbody>
+          </table>
+          
+          <p class="small-info">
+            Calories par gramme :
+          </p>
+          <p class="small-info text-center">
+            Matière grasse 9
+            &bull;
+            Glucides 4
+            &bull;
+            Protéines 4
+          </p>
+          
+        </section>
+    </div>
+
+    <div class="step cereal-box" data-x="0" data-y="-300" data-scale="0.5">
+        <img class="logo" src="img/feedes_logo2.jpg" width="1200" alt="">
+    </div>
+
+    <div class="step baseline text-center" data-x="0" data-y="-50" data-scale="0.5">
+        <h1 class="big">La plate-forme de transparance alimentaire</h1>
+    </div>
+    
+    <div class="step top-criterias" data-x="0" data-y="-675" data-z="-120" data-rotate-x="90" data-rotate-y="0" data-scale="0.5">
+        <div class='cool_btn1 blue'>
+            <h1 class='top'>Origine <i>géographique</i></h1>
+            <h2>,</h2>
+        </div>
+        <div class='cool_btn1 orange'>
+            <h1 class='top'>Etapes <i>fabrication, distribution</i></h1>
+            <h2>(</h2>
+        </div>
+        <div class='cool_btn1 teal'>
+            <h1 class='top'>Prix <i>ventilation des coûts</i></h1>
+            <h2>#</h2>
+        </div>
+        <div class='cool_btn1 green'>
+            <h1 class='top'>Acteurs <i>fournisseurs, intermédiaires</i></h1>
+            <h2>g</h2>
+        </div>
+    </div>
+
+    <div class="step text-center" data-x="450" data-y="-450" data-z="-120" data-rotate-x="0" data-rotate-y="90" data-scale="0.3">
+        <img src="img/barcode.png" height="354" width="606" alt="">
+        <h1><a href="http://feedes.fr/cereales/42">http://feedes.fr/cereales/42</a></h1>
+    </div>
+
+    <div class="step text-center" data-x="450" data-y="-250" data-z="-120" data-rotate-x="0" data-rotate-y="90" data-scale="0.3">
+        <div class='cool_btn1 green'>
+            <h1 class='top'>85% <i>transparence</i></h1>
+            <h2>q</h2>
+        </div>
+    </div>
+
+    <div id="overview" class="step" data-x="0" data-y="0" data-rotate-x="0" data-rotate-y="30" data-scale="1.1">
+        
+    </div>
+
+</div>
+
+<!--
+    
+    Hint is not related to impress.js in any way.
+    
+    But it can show you how to use impress.js features in creative way.
+    
+    When the presentation step is shown (selected) its element gets the class of "active" and the body element
+    gets the class based on active step id `impress-on-ID` (where ID is the step's id)... It may not be
+    so clear because of all these "ids" in previous sentence, so for example when the first step (the one with
+    the id of `bored`) is active, body element gets a class of `impress-on-bored`.
+    
+    This class is used by this hint below. Check CSS file to see how it's shown with delayed CSS animation when
+    the first step of presentation is visible for a couple of seconds.
+    
+    ...
+    
+    And when it comes to this piece of JavaScript below ... kids, don't do this at home ;)
+    It's just a quick and dirty workaround to get different hint text for touch devices.
+    In a real world it should be at least placed in separate JS file ... and the touch content should be
+    probably just hidden somewhere in HTML - not hard-coded in the script.
+    
+    Just sayin' ;)
+    
+-->
+<div class="hint">
+    <p>Use a spacebar or arrow keys to navigate</p>
+</div>
+<script>
+
+    $(document).on('impress:stepleave', function(e) {
+        var currentSlide = $(e.target).attr('id');
+        var currentSlideClass = $(e.target).attr('class');
+
+        if (currentSlide === 'capture4') {
+           $(".logo").fadeTo('fast', 0);
+       }
+    });
+
+    // $(document).on('impress:stepleave', function(e) {
+    //     var currentSlide = $(e.target).attr('id');
+    //     var currentSlideClass = $(e.target).attr('class');
+
+    //     if (currentSlide === 'capture1') {
+    //        $("#capture2").addClass('capture');
+    //    }
+    //    if (currentSlide === 'capture3') {
+    //        $("#capture2").removeClass('capture');
+    //        $("#capture3").addClass('capture');
+    //    }
+    // });
+
+</script>
+
+<script src="js/impress.js"></script>
+<script>impress().init();</script>
+
+</body>
+</html>
+
